@@ -1,7 +1,3 @@
-# velocity_metrics
-
-tics Model
-
 A comprehensive Power BI semantic model for analyzing CRM sales pipeline data, built on Google BigQuery data sources.
 
 ## 📊 Model Overview
@@ -10,7 +6,7 @@ This tabular model demonstrates enterprise-level data modeling with advanced DAX
 
 ### Tables
 
-#### **Salespipeline** (Core Fact Table)
+#### **Salespipeline** (Fact Table)
 Central transaction table tracking all sales opportunities with:
 - `opportunity_id` - Unique opportunity identifier
 - `sales_agent` - Sales representative handling the opportunity
@@ -67,33 +63,6 @@ Metadata reference table with descriptive data fields.
 
 ---
 
-## 🔗 Data Relationships
-
-The model uses a star schema with automatic relationships:
-
-```
-                    ┌─────────────────┐
-                    │   Accounts      │
-                    └──────┬──────────┘
-                           │
-                    [account relationship]
-                           │
-    ┌────────────┐─────────┼─────────┬────────────┐
-    │            │         │         │            │
-┌───▼───┐  ┌────▼────┐ ┌──▼───┐ ┌──▼────┐  ┌──▼────┐
-│Prod.  │  │Sales    │ │Sales │ │Data   │  │Dates  │
-│ucts   │  │pipeline │ │teams │ │Dict.  │  │(Auto) │
-└────────┘  └─────────┘ └──────┘ └───────┘  └───────┘
-```
-
-**Key Relationships:**
-- Salespipeline → Products (product)
-- Salespipeline → Accounts (account)
-- Salespipeline → Salesteams (sales_agent)
-- Automatic date relationships for engage_date and close_date
-
----
-
 ## 🎯 Advanced Features
 
 ### Calculated Columns
@@ -113,19 +82,6 @@ The model uses a star schema with automatic relationships:
 - Automatic data type inference
 - Format strings for currency and dates
 - Data categorization for semantic understanding
-
----
-
-## 📊 Model Statistics
-
-- **Compatibility Level:** 1600 (Power BI/Analysis Services 2022)
-- **Language:** en-US
-- **Default Mode:** Import (in-memory)
-- **Data Source:** Google BigQuery
-- **Culture:** en-US
-- **Estimated Model Size:** ~1.5 MB
-
----
 
 ## 🚀 Usage in Power BI
 
@@ -200,17 +156,6 @@ This model supports comprehensive sales analytics:
 ✅ **Time Intelligence** - Multi-level date hierarchies  
 ✅ **Enterprise Standards** - Proper naming, documentation, and organization  
 ✅ **Real-world Data** - Connected to production BigQuery database  
-
----
-
-## 🏗️ Model Development Details
-
-**Created:** February 2026  
-**Compatibility Level:** 1600 (Power BI Desktop 2022+)  
-**Last Updated:** February 26, 2026  
-**Data Warehouse:** Google BigQuery  
-
----
 
 *This model demonstrates expertise in enterprise data modeling, DAX programming, and business intelligence architecture suitable for Fortune 500 analytics environments.*
 

@@ -1,3 +1,8 @@
+<h1 align="center"> 🚀 B2B Opportunity Managment:
+  
+Velocity Dashboard - Sales Operation  </h1>
+<div align="justify">
+
 
 |<img src="https://github.com/tinyazure/velocity_metrics/blob/main/velocity.jpg" width="500" height="400">  |
 | --- |

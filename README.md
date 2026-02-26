@@ -1,7 +1,7 @@
 A comprehensive Power BI semantic model for analyzing CRM sales pipeline data, built on Google BigQuery data sources.
 
 ## 📊 Model Overview
-
+ 
 This tabular model demonstrates enterprise-level data modeling with advanced DAX calculations, proper relationships, and business intelligence best practices.
 
 ### Tables

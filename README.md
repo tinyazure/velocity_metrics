@@ -1,1 +1,3 @@
 # velocity_metrics
+
+[link_to_pbi_dashboard](https://app.powerbi.com/view?r=eyJrIjoiOWVjOWNmMGYtMjdkMC00ZTBmLThhMzgtOGQ5ZWEzYmZjYjNjIiwidCI6Ijk1MzQ3NjQyLTI3ZGYtNGUzMy05ZjRiLTFlMTA2MDRhNjAwNCIsImMiOjR9)

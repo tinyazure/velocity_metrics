@@ -1,8 +1,7 @@
-[Velocity Dashboard](https://app.powerbi.com/view?r=eyJrIjoiOWVjOWNmMGYtMjdkMC00ZTBmLThhMzgtOGQ5ZWEzYmZjYjNjIiwidCI6Ijk1MzQ3NjQyLTI3ZGYtNGUzMy05ZjRiLTFlMTA2MDRhNjAwNCIsImMiOjR9 "@embed")
 
-| Header 1 |
+|<img src="https://github.com/tinyazure/velocity_metrics/blob/main/velocity.jpg" width="500" height="400">  |
 | --- |
-| [Velocity Dashboard](https://app.powerbi.com/view?r=eyJrIjoiOWVjOWNmMGYtMjdkMC00ZTBmLThhMzgtOGQ5ZWEzYmZjYjNjIiwidCI6Ijk1MzQ3NjQyLTI3ZGYtNGUzMy05ZjRiLTFlMTA2MDRhNjAwNCIsImMiOjR9 "@embed")|
+| [Ckick here to Browse the Velocity Dashboard](https://app.powerbi.com/view?r=eyJrIjoiOWVjOWNmMGYtMjdkMC00ZTBmLThhMzgtOGQ5ZWEzYmZjYjNjIiwidCI6Ijk1MzQ3NjQyLTI3ZGYtNGUzMy05ZjRiLTFlMTA2MDRhNjAwNCIsImMiOjR9 "@embed")|
 ## 📊 Model Overview
  
 This tabular model demonstrates enterprise-level data modeling with advanced DAX calculations, proper relationships, and business intelligence best practices.

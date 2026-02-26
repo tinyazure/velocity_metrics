@@ -1,13 +1,18 @@
 <h1 align="center"> 🚀 B2B Opportunity Managment:
   
-Velocity Dashboard - Sales Operation  </h1>
+Velocity Dashboard - Sales Operation  </h2>
 <div align="justify">
 
+## Table of Contents
+[Overview](#overview)  
 
-|<img src="https://github.com/tinyazure/velocity_metrics/blob/main/velocity.jpg" width="500" height="400">  |
-| --- |
-| [Ckick here to Browse the Velocity Dashboard](https://app.powerbi.com/view?r=eyJrIjoiOWVjOWNmMGYtMjdkMC00ZTBmLThhMzgtOGQ5ZWEzYmZjYjNjIiwidCI6Ijk1MzQ3NjQyLTI3ZGYtNGUzMy05ZjRiLTFlMTA2MDRhNjAwNCIsImMiOjR9 "@embed")|
-## 📊 Model Overview
+## Overview
+
+| Velocity Dashboard|KPI's to be replicated|
+|------------------------------|-----------------------|
+| <img src="https://github.com/tinyazure/velocity_metrics/blob/main/velocity.jpg" width="1300" height="400"> <br> [Ckick here to Browse the Velocity Dashboard](https://app.powerbi.com/view?r=eyJrIjoiOWVjOWNmMGYtMjdkMC00ZTBmLThhMzgtOGQ5ZWEzYmZjYjNjIiwidCI6Ijk1MzQ3NjQyLTI3ZGYtNGUzMy05ZjRiLTFlMTA2MDRhNjAwNCIsImMiOjR9 "@embed")                     | The report is based on key performance indicators (KPIs) relevant to the eCommerce industry. For this project, the following four KPIs will be queried and analyzed using SQL and Google BigQuery Public dataset:<br><br><br><br>1. Revenue and Year-over-Year Revenue Growth<br>2. Number of Unique Buyers<br>3. Purchases per Second (calculated on a daily basis)<br>4. Deliveries completed in under 48 hours
+
+## Model Overview
  
 This tabular model demonstrates enterprise-level data modeling with advanced DAX calculations, proper relationships, and business intelligence best practices.
 

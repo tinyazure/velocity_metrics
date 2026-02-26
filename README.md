@@ -1,5 +1,8 @@
-A comprehensive Power BI semantic model for analyzing CRM sales pipeline data, built on Google BigQuery data sources.
+[Velocity Dashboard](https://app.powerbi.com/view?r=eyJrIjoiOWVjOWNmMGYtMjdkMC00ZTBmLThhMzgtOGQ5ZWEzYmZjYjNjIiwidCI6Ijk1MzQ3NjQyLTI3ZGYtNGUzMy05ZjRiLTFlMTA2MDRhNjAwNCIsImMiOjR9 "@embed")
 
+| Header 1 |
+| --- |
+| [Velocity Dashboard](https://app.powerbi.com/view?r=eyJrIjoiOWVjOWNmMGYtMjdkMC00ZTBmLThhMzgtOGQ5ZWEzYmZjYjNjIiwidCI6Ijk1MzQ3NjQyLTI3ZGYtNGUzMy05ZjRiLTFlMTA2MDRhNjAwNCIsImMiOjR9 "@embed")|
 ## 📊 Model Overview
  
 This tabular model demonstrates enterprise-level data modeling with advanced DAX calculations, proper relationships, and business intelligence best practices.

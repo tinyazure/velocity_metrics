@@ -39,9 +39,6 @@ Sales organization structure:
 - `manager` - Direct manager
 - `regional_office` - Office assignment
 
-#### **Data_Dictionary** (Reference)
-Metadata reference table with descriptive data fields.
-
 ---
 
 ## 📈 Key Measures
@@ -61,27 +58,10 @@ Metadata reference table with descriptive data fields.
 - **`Win Rate`** - Percentage of closed deals that were won
 - **`SalesCicle`** - Average days from engagement to close (closed deals only)
 
----
-
-## 🎯 Advanced Features
-
 ### Calculated Columns
 - **`SalesCicleCC`** - Computed sales cycle using DATEDIFF for all rows
 
-### Linguistic Metadata
-- Semantic annotations for natural language queries
-- Q&A optimization for business terms
-- Auto-generated hierarchies for date dimensions
 
-### Time Intelligence
-- Date hierarchies (Year → Quarter → Month → Day)
-- Automatic local date tables for engage_date and close_date
-- Support for temporal analysis
-
-### Data Quality
-- Automatic data type inference
-- Format strings for currency and dates
-- Data categorization for semantic understanding
 
 ## 🚀 Usage in Power BI
 
@@ -110,7 +90,7 @@ Google BigQuery (crmsalespipeline dataset)
         ├── products
         ├── salespipeline (with transformations)
         ├── salesteams
-        └── data_dictionary
+      
 
 Power Transformations:
 - Product name standardization (GTXPro → GTX Pro)
@@ -141,24 +121,11 @@ Power Transformations:
 
 This model supports comprehensive sales analytics:
 - **Win/Loss Analysis** - Understand conversion rates by segment
-- **Pipeline Forecasting** - Project revenue based on stages
 - **Territory Performance** - Compare results across regions
 - **Product Analysis** - Revenue and volume by product line
 - **Team Efficiency** - Sales cycle and win rate by agent/manager
 
 ---
-
-## 📌 Portfolio Highlights
-
-✅ **Professional Data Architecture** - Star schema with proper dimensions  
-✅ **Advanced DAX Measures** - Business logic encapsulated in semantic layer  
-✅ **Semantic Layer** - Linguistic metadata and Q&A optimization  
-✅ **Time Intelligence** - Multi-level date hierarchies  
-✅ **Enterprise Standards** - Proper naming, documentation, and organization  
-✅ **Real-world Data** - Connected to production BigQuery database  
-
-*This model demonstrates expertise in enterprise data modeling, DAX programming, and business intelligence architecture suitable for Fortune 500 analytics environments.*
-
 
 
 
